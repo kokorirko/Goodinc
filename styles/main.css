@@ -18,6 +18,10 @@ h1, h2, h3, h4, h5, h6{
   margin:0 auto;
 }
 
+.relative{
+  position:relative;
+}
+
 /*
 
       HEADER
@@ -63,6 +67,61 @@ header#header nav ul li a:hover, header#header nav ul li a.current{
       MAIN
 
 */
+
+main header.container{
+  margin-top:70px;
+  background:#373737;
+  display:flex;
+}
+
+main header.container > .relative{
+  border-right:8px solid #f26c4f;
+}
+
+main header.container .relative h3{
+  position:absolute;
+  bottom:0;
+  right:0;
+  padding:25px 30px;
+  font-size:1.6rem;
+  color:#FFF;
+  background:rgba(0,0,0,0.5);
+  margin-bottom:0;
+}
+
+main header.container .description{
+  padding:45px 40px;
+}
+
+h1{
+  font-size:1.9rem;
+  color:#FFF;
+}
+
+main header.container .description p{
+  color:#a7a7a7;
+  font-size:1.2rem;
+  line-height: 1.5;
+}
+
+.descriptionLink{
+  margin-top:25px;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+}
+
+.descriptionLink a{
+  color:#FFF;
+  text-decoration: none;
+  font-size:3.6rem;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+.descriptionLink span{
+  background: url('../images/clock.png') no-repeat left center;
+  padding-left:28px;
+}
 
 
 /*
