@@ -6,5 +6,5 @@
 
 ## Liens :
 
-[Cours HTML/CSS](https://cours.36px.fr/)
-[Agence web 36 Pixels](https://www.36pixels.fr)
+* [Cours HTML/CSS](https://cours.36px.fr/)
+* [Agence web 36 Pixels](https://www.36pixels.fr)
